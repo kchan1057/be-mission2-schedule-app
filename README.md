@@ -8,6 +8,12 @@
 | 작성자 변경       | PATCH  | /api/schedules/{id}/writer  | `{ "writer": "...", "password": "..." }` | 수정된 일정 정보 | 200 OK      |
 | 일정 삭제         | DELETE | /api/schedules/{id}         | `{ "password": "..." }`                | 없음               | 200 OK      |
 
+
+
+
+
+
+
 ┌───────────────┐
 │   schedule    │
 ├───────────────┤
