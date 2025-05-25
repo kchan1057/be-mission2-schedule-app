@@ -8,5 +8,11 @@
 | 작성자 변경       | PATCH  | /api/schedules/{id}/writer  | `{ "writer": "...", "password": "..." }` | 수정된 일정 정보 | 200 OK      |
 | 일정 삭제         | DELETE | /api/schedules/{id}         | `{ "password": "..." }`                | 없음               | 200 OK      |
 
-
-<pre lang="markdown"> ### 📌 ERD (Entity Relationship Diagram) ``` schedule ├── id (PK) : BIGINT ├── todo : VARCHAR(255) ├── writer : VARCHAR(100) ├── password : VARCHAR(255) ├── created_at : DATETIME └── modified_at : DATETIME ``` </pre>
+### ERD (Entity Relationship Diagram)
+<pre>schedule
+├── id (PK) : BIGINT
+├── todo : VARCHAR(255)
+├── writer : VARCHAR(100)
+├── password : VARCHAR(255)
+├── created_at : DATETIME
+└── modified_at : DATETIME</pre>
