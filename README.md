@@ -9,12 +9,4 @@
 | 일정 삭제         | DELETE | /api/schedules/{id}         | `{ "password": "..." }`                | 없음               | 200 OK      |
 
 
-### ERD (Entity Relationship Diagram)
-schedule
-├── id (PK) : BIGINT
-├── todo : VARCHAR(255)
-├── writer : VARCHAR(100)
-├── password : VARCHAR(255)
-├── created_at : DATETIME
-└── modified_at : DATETIME
-
+<pre lang="markdown"> ### 📌 ERD (Entity Relationship Diagram) ``` schedule ├── id (PK) : BIGINT ├── todo : VARCHAR(255) ├── writer : VARCHAR(100) ├── password : VARCHAR(255) ├── created_at : DATETIME └── modified_at : DATETIME ``` </pre>
